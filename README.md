@@ -179,3 +179,29 @@ cd build
 cmake ..
 
 #####################################################################################
+
+Tensorflow installation
+http://tflearn.org/installation/
+
+
+tensorflow 0.11 cuda 8.0
+
+
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
+
+
+pip install --upgrade $TF_BINARY_URL
+
+
+----------------------------------
+
+
+tensorflow 0.11 cuda 7.5
+
+
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0rc0-cp27-none-linux_x86_64.whl
+
+pip install --upgrade $TF_BINARY_URL
+
+
+
