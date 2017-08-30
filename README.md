@@ -13,11 +13,11 @@ Download nvidia.run file for the relevant GPU.
 
 Once there type: Ctrl + Alt + F1, and login to your user.
 
-sudo apt-get install build-essential
+	sudo apt-get install build-essential
 
-sudo service lightdm stop 
+	sudo service lightdm stop 
 
-	The top line is a necessary step for installing the driver.
+The top line is a necessary step for installing the driver.
         
 Go to the directory where you have the Nvidia driver, and run
 
@@ -202,6 +202,14 @@ tensorflow 0.11 cuda 7.5
 export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0rc0-cp27-none-linux_x86_64.whl
 
 pip install --upgrade $TF_BINARY_URL
+
+
+##############################################################################################
+Keras installation
+	pip install keras
+
+
+
 
 
 
