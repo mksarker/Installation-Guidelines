@@ -3,6 +3,10 @@ Installation instructions for Deep Learning Environments on Ubuntu 14.04
 Links:
 https://github.com/saiprashanths/dl-setup
 
+Latest:
+
+https://github.com/IraAI/caffe-gpu-installation
+
 Please modified as per library as below;
 
 NVIDIA Driver and CUDA
